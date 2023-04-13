@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	background-image: url(imagens/background.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+	}
+
+.navbar {
+	width: 100%;
+	height: 15vh;
+	justify-content: space-between;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	font-family: heavitas;
+	color: #7a51a1;
+	}
+
+.logo {
+	width: 300px;
+	cursor: pointer;
+	}
+
+nav {
+	flex: 1
+	justify-content: space-between;
+	}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	}
+
+nav ul li a {
+	text-decoration: none;
+	color: #7a51a1;
+	}
+
+/*
+	.navbar2 {
+	width: 100%;
+	height: 0;
+	justify-content: space-between;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	font-family: heavitas;
+	color: #7a51a1;
+	} 
+*/
+
+.logo2 {
+	width: 300px;
+	cursor: pointer;
+	}
+
+/*
+	nav ul li img {
+	width: 40px;
+	color: #7a51a1;
+	} 
+*/
+
+.content h1 {
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 5px;
+	color: black;
+	}
+
+.content p {
+	font-size: 20px;
+	color: black;
+	margin-right: 700px;
+	}
+
+.content {
+	margin-left: 10%;
+	margin-top: 10
+	0px;
+	}
+
+.content .btn {
+	display: inline-flex;
+	background: linear-gradient( to right, #69b883, #a98dba);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+	}
+
+.arrow-icons .btn {
+	margin-top: 40px;
+	display: inline-flex;
+	background: none;
+	border-radius: 6px;
+	padding: 10px 100px;
+	}
+
+.arrow-icons img {
+	width: 30px;
+	margin-left: 75px;
+	}
+
+.feature-img {
+	height: 520px;
+	position: absolute;
+	bottom: 0;
+	right: 160px;
+	}
+
+.social-links {
+	transform: rotate(-90deg);
+	position: absolute;
+	/*left: -80px;*/
+	bottom: 300px;
+	}
+
+.social-links a img {
+	width: 45px;
+	margin: 0px 10px;
+	}
+
+.footer {
+	font-family: heavitas;
+	font-size: 20px;
+	text-decoration: none;
+	display: flex;
+}
